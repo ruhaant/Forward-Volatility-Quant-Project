@@ -6,7 +6,7 @@ import time
 from ib_insync import IB
 import pandas as pd
 ib = IB()
-ib.connect('127.0.0.1', 7497, clientId=101)
+#api connect 
 
 def _norm_cdf(x):
     return 0.5 * (1.0 + math.erf(x / math.sqrt(2.0)))
